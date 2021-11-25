@@ -1,33 +1,31 @@
 /* --------Top navigation ----------*/
 
 .topNavigation {
-	border-left: solid 1px white;
-	position: fixed;
-	transition: 400ms;
-	width: 85%;
+	position: fixed; /* Gör så att naven sitter fast på den positionen om man scrollar*/
+	width: 85%; /*Navens bredd*/
 	z-index: 1;
 	background-color: black;
-	top: 0;
-	right: 0;
-	left: 12rem;
+	top: 0; /* Gör så att naven är alltid längst upp i hemsidan*/
+	left: 12rem; /* Gör så att naven sticker ut åt vänster och hamnar inte bakom sidnav */
 	padding: 17px;
+	transition: 400ms; /*Ger en mjuk hover effect*/
 }
 
 .topNavigationLinks a {
-	text-decoration: none;
-	font-size: 1.25rem;
+	text-decoration: none; /* Ingen underlinje */
+	font-size: 1.25rem; /* Textens storlek */
 	transition: 200ms;
 	color: white;
 }
 
 .topNavigationLinks li {
-	list-style: none;
+	list-style: none; /* Tar bort punkterna på länkarna */
 }
 
 .topNavigationLinks ul {
 	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
+	justify-content: space-evenly; /* Gör en jämn uppdelning mellan länkarna */
+	align-items: center; /*Placerar allt i samma linje horisontelt */
 	padding: 0;
 	width: 100%;
 }
@@ -35,20 +33,19 @@
 /* --------Side navigation ----------*/
 .sideNav {
 	position: fixed;
-	z-index: 1;
+	z-index: 1; /* Gör så att den hamnar ovanpå topnav*/
 	background-color: black;
 	top: 0;
 	left: 0;
 	width: 25%;
 	height: 100%;
 	transition: 500ms;
-	border-right: solid 1px white;
+	border-right: solid 1px white; /* en vit linje på högersidan om naven */
 }
 
 .sideNav a {
 	text-align: center;
 	color: white;
-	font-family: "Beon";
 	text-decoration: none;
 }
 
@@ -67,4 +64,10 @@
 	font-size: 1.4em;
 	list-style: none;
 	padding: 30px 0;
+}
+
+/* När man lägger musen på länken */
+.sideNav a:hover,
+.topNavigationLinks a:hover {
+	color: grey;
 }
