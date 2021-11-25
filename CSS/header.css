@@ -1,0 +1,32 @@
+.sideNavigation {
+	position: fixed;
+	height: 100%;
+	width: 20%;
+	bottom: 0;
+	left: 0;
+	background-color: #09fbfc; /* Backgrundsfärg för sid navigationen.*/
+}
+
+.sideNavigation a {
+	display: block; /* a tagen till punktform */
+	color: black; /* texten får svart färg*/
+	margin: 50px 20px;
+	padding: 16px 16px;
+	text-decoration: none; /* Tar bort underlinjen på tag a*/
+	font-size: 30px;
+	text-align: left;
+	transition: 500ms;
+}
+
+.sideNavigation ul {
+	padding: 0; /* Tar bort extra paddingen på ul*/
+	text-align: center;
+}
+
+li {
+	list-style: none; /* Tar bort punkterna på länkarna */
+}
+
+.sideNavigation a:hover {
+	font-size: 35px;
+}

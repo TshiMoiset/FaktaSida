@@ -1,0 +1,5 @@
+body {
+	padding: 0;
+	margin: 0; /* Koden gör så att man inte kan se hemsidans kanter*/
+	box-sizing: border-box;
+}
