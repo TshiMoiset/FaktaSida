@@ -3,3 +3,13 @@ body {
 	margin: 0; /* Koden gör så att man inte kan se hemsidans kanter*/
 	box-sizing: border-box;
 }
+
+hr {
+	height: 2px;
+	border-width: 0;
+	border-style: solid;
+	background-color: white;
+	color: white;
+	justify-content: center;
+	width: 60%;
+}
