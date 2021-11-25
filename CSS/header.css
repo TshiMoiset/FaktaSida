@@ -1,9 +1,10 @@
 .sideNavigation {
 	position: fixed;
 	height: 100%;
-	width: 20%;
+	width: 20%; /* Menyn tar bara 20% av width*/
 	bottom: 0;
 	left: 0;
+	top: 0%;
 	background-color: #09fbfc; /* Backgrundsfärg för sid navigationen.*/
 }
 
@@ -29,4 +30,27 @@ li {
 
 .sideNavigation a:hover {
 	font-size: 35px;
+}
+
+/* ------------- Top navigation -----------*/
+
+.topNavigation {
+	position: fixed;
+	top: 0%;
+	width: 50%;
+	left: 20%;
+	background-color: #c8e092;
+}
+
+.topNavigation ul li {
+	display: inline-block;
+	padding: 0 40px;
+}
+
+.topNavigation ul {
+	padding: 0;
+}
+
+.topNavigation {
+	text-align: center;
 }
