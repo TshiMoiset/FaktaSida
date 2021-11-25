@@ -10,8 +10,24 @@
 	}
 }
 
-@media screen and (max-width: 768px) and (min-width: 480px) {
+@media screen and (max-width: 480px) {
+	.topNavigation {
+		width: 87%;
+		left: 63px;
+	}
 }
 
-@media screen and (max-width: 480px) and (min-width: 0px) {
+@media screen and (max-width: 376px) {
+	.topNavigation {
+		width: 87%;
+		left: 48px;
+	}
+
+	.topNavigationLinks a {
+		font-size: small;
+	}
+
+	.sideNav a {
+		font-size: 16px;
+	}
 }
