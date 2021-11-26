@@ -19,10 +19,6 @@
 	font-family: "AvantGarde";
 }
 
-.topNavigationLinks li {
-	list-style: none; /* Tar bort punkterna på länkarna */
-}
-
 .topNavigationLinks ul {
 	display: flex;
 	justify-content: space-evenly; /* Gör en jämn uppdelning mellan länkarna */

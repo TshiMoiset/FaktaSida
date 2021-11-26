@@ -1,5 +1,9 @@
 /* Kod kör om eneheten har en skärm på X storlek*/
 @media screen and (max-width: 770px) {
+	* {
+		overflow-x: hidden; /* Gör så att man inte kan scrolla åt sidan */
+	}
+
 	.topNavigation {
 		width: 87%;
 		left: 100px;
@@ -22,6 +26,15 @@
 
 	main {
 		margin-left: 6rem;
+	}
+
+	.footerContent ul {
+		display: block;
+		text-align: center;
+	}
+
+	.footerContent a {
+		padding: 15px;
 	}
 }
 

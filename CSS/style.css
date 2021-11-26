@@ -15,6 +15,10 @@ hr {
 	width: 60%;
 }
 
+li {
+	list-style: none; /* Tar bort punkterna på länkarna */
+}
+
 @font-face {
 	font-family: "AvantGarde"; /*Namn på nedladdad font*/
 	src: url("../AvantGardeBookBT.ttf") format("woff"); /* Kod för att hämta den*/
