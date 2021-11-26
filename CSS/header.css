@@ -16,6 +16,7 @@
 	font-size: 1.25rem; /* Textens storlek */
 	transition: 200ms;
 	color: white;
+	font-family: "AvantGarde";
 }
 
 .topNavigationLinks li {
@@ -39,7 +40,6 @@
 	left: 0;
 	width: 20%;
 	height: 100%;
-	transition: 500ms;
 	border-right: solid 1px white; /* en vit linje på högersidan om naven */
 }
 
@@ -47,6 +47,8 @@
 	text-align: center;
 	color: white;
 	text-decoration: none;
+	font-family: "AvantGarde";
+	transition: 400ms; /*Ger en mjuk hover effect*/
 }
 
 .sideNav ul {
@@ -69,5 +71,5 @@
 /* När man lägger musen på länken */
 .sideNav a:hover,
 .topNavigationLinks a:hover {
-	color: grey;
+	color: #ccc;
 }
