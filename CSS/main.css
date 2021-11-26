@@ -16,3 +16,20 @@ main {
 .description {
 	margin: 20px;
 }
+
+/*---------------- Kod för tiger.html ------------*/
+.tigerImages {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tigerImages img {
+	width: 30%;
+	height: auto;
+	padding: 16px;
+}
+
+.roundTiger {
+	border-radius: 50%;
+}
