@@ -1,15 +1,18 @@
 main {
-	margin-top: 5.6rem;
+	margin-top: 7rem;
 	margin-left: 16rem;
 }
 
-.animalImages1 {
-}
-
 .animalImages {
+	width: 100%;
+	text-align: center;
 }
 
 .animalImages img {
-	width: 40%;
+	width: 45%;
 	height: auto;
+}
+
+.description {
+	margin: 20px;
 }

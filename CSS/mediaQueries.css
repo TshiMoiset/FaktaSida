@@ -8,12 +8,20 @@
 	.sideNavContent ul {
 		margin-top: 3rem;
 	}
+
+	main {
+		margin-left: 10rem;
+	}
 }
 
 @media screen and (max-width: 480px) {
 	.topNavigation {
 		width: 87%;
 		left: 63px;
+	}
+
+	main {
+		margin-left: 6rem;
 	}
 }
 
@@ -29,5 +37,9 @@
 
 	.sideNav a {
 		font-size: 16px;
+	}
+
+	main {
+		margin-left: 4.5rem;
 	}
 }
