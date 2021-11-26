@@ -3,7 +3,7 @@
 .topNavigation {
 	position: fixed; /* Gör så att naven sitter fast på den positionen om man scrollar*/
 	width: 85%; /*Navens bredd*/
-	z-index: 1;
+	z-index: 1; /* Gör så att den hamnar ovanför allt anntat på hemsidan */
 	background-color: black;
 	top: 0; /* Gör så att naven är alltid längst upp i hemsidan*/
 	left: 12rem; /* Gör så att naven sticker ut åt vänster och hamnar inte bakom sidnav */
